@@ -1,6 +1,7 @@
 @extends('products.layout')
 
 @section('content')
+
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
@@ -23,7 +24,7 @@
     </div>
 @endif
 
-<form action="{{ route('products.store') }}" method="POST">
+<form action="{{ route('products.store') }}" method="POST"> 
     @csrf
 
      <div class="row">
